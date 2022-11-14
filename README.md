@@ -13,7 +13,7 @@ This project is licenced unde GPL-3.0 license - chack the [LICENSE](LICENSE) fil
 - [`texts`](texts): directory with all texts developd during my master's degree.
 - [`texts/dissertation`](texts/dissertation): directory with my dissertation text on LaTeX format.
 - [`texts/qualification`](texts/qualification): directory with qualification text on LaTeX format.
-
+- [`README.md`](README.md): Content of this file.
 
 ## How cite
 If you use this repository, please cite this paper:
