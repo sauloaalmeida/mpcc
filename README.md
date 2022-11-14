@@ -2,7 +2,7 @@
 Repository used to store all artifacts related to the final work of my master's degree at PPGI / UFRJ
 
 ## Licence
-This project is licenced unde GPL-3.0 license - chack the [LICENSE](LICENSE) file to Details.
+This project is licenced unde GPL-3.0 license - chack the [LICENSE](LICENSE) file to more details.
 
 ## Authors
 - **Saulo A. Almeida** - [@sauloaalmeida](https://github.com/sauloaalmeida)
