@@ -18,4 +18,4 @@ This project is licenced unde GPL-3.0 license - chack the [LICENSE](LICENSE) fil
 ## How cite
 If you use this repository, please cite this paper:
 
->Saulo A. Almeida. (2023). An SLR about Message Passing Concurrente Correctness
+>Saulo A. Almeida. (2023). An SLR about Message Passing Concurrent Correctness
