@@ -1,0 +1,30 @@
+# Notas das versões do Mestre em LaTeX
+
+Para a lista completa: http://github.com/nelas/mestre-em-latex/commits/master
+2012-01-22:
+    - Adaptado script para qualificação do PPGI - UFRJ (é possível descomentar o resto e usar mais coisas)
+    - Modificado página de título colocando logo da instituição em cima
+    - Adicionado possibilidade de colocar co-orientador
+    - Bibliografia pode ser colocada no formato da sbc ou abnt
+    - Removido natbib
+    - Usando arquivo Meta como arquivo de configurações para mais variáveis
+    - Criada tabela final com redirecionamentos
+
+2010-05-01:
+    - Versão 0.2
+    - [issue #1] Aparecimento de página em branco entre resumo e _abstract_ corrigido.
+    - [issue #2] Resolvido problema com alternância da margem após resumo.
+    - [issue #3] Corrigido números das páginas aparecendo onde não deviam.
+    - [issue #4] Numeração começa no lugar certo agora.
+    - [issue #5] Listas agora estão antes do sumário e não estão referenciadas nele.
+    - [issue #6] Incluí palavras-chave para resumo e _abstract_.
+    - Criei `Makefile` para compilar mais facilmente e um arquivo LEIAME simples.
+    - Fundi 2 capítulos para simplificar.
+    - Limpei o código e pacotes extras que estavam sobrando.
+    - Troquei as figuras e coloquei na raiz (com pasta opcional).
+    - Dei uma limpada no texto (apesar de estar uma zona...).
+    - Removi o script para transformar em RTF.
+
+2009-01-28:
+    - Versão 0.1
+    - Lançamento inicial.
