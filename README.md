@@ -11,8 +11,9 @@ This project is licenced unde GPL-3.0 license - chack the [LICENSE](LICENSE) fil
 - [`project-management`](project-management): directory with project planning artifacts.
 - [`project-management/planning.planner`](project-management/planning.planner): project planning on Planner Open Source Software format.
 - [`texts`](texts): directory with all texts developd during my master's degree.
-- [`texts/qualification`](texts/qualification): directory with qualification text on LaTeX format.
 - [`texts/dissertation`](texts/dissertation): directory with my dissertation text on LaTeX format.
+- [`texts/qualification`](texts/qualification): directory with qualification text on LaTeX format.
+
 
 ## How cite
 If you use this repository, please cite this paper:
