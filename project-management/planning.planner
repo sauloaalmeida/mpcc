@@ -20,223 +20,733 @@
     </calendar>
   </calendars>
   <tasks>
-    <task id="1" name="Trabalho Mestrado" note="" work="2937600" start="20220401T000000Z" end="20240415T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="1" name="Trabalho Mestrado" note="" work="16329600" start="20220401T000000Z" end="20251001T000000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <constraint type="must-start-on" time="20220401T000000Z"/>
-      <task id="2" name="Brainstorm com orientadora" note="" work="115200" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-        <task id="3" name="Definir nome do trabalho" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        <task id="4" name="Definir questoes de pesquisa" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        <task id="5" name="Definir estrutura do documento" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        <task id="6" name="Definir String de Busca" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      </task>
-      <task id="7" name="Reunioes de acompanhamento" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="8" name="Preparacao ferramentas" note="" work="230400" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-        <task id="9" name="Zotero" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-          <task id="10" name="Criar Grupo Publico Nuvem Zotero" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        </task>
-        <task id="11" name="Editor LaTeX" note="" work="86400" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-          <task id="12" name="Instalar Editor Latex" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="13" name="Instalar Pacotes extras" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="14" name="Compilar Template temporario PPGI" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        </task>
-        <task id="15" name="Repositorio Github" note="" work="86400" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-          <task id="16" name="Criacao do repositorio com licen&#xE7;a e release inicial" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="17" name="Adicionar Artefatos iniciais dos textos" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="18" name="Criar Readme" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        </task>
-        <task id="19" name="Repositorio Zenodo" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-          <task id="20" name="Criar DOI da versao inicial" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        </task>
-      </task>
-      <task id="21" name="Fazer SLR" note="" work="1670400" start="20220401T000000Z" end="20220404T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-        <task id="22" name="Escrever pre-projeto do SLR" note="" work="57600" start="20220401T170000Z" end="20220404T170000Z" work-start="20220404T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-          <predecessors>
-            <predecessor id="1" predecessor-id="4" type="FS"/>
-          </predecessors>
-          <task id="23" name="Definir campos que serao coletados" note="" work="28800" start="20220401T170000Z" end="20220404T170000Z" work-start="20220404T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="24" name="Definir Formulario de Qualidade" note="" work="28800" start="20220401T170000Z" end="20220404T170000Z" work-start="20220404T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        </task>
-        <task id="25" name="Iteracoes Pesquisa" note="" work="1612800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-          <task id="26" name="1 - IEEE" note="" work="201600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-            <task id="27" name="Realizar Pesquisa" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="28" name="Exclus&#xF5;es" note="" work="57600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-              <task id="29" name="Rodada 1 por t&#xED;tulo/abstract" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-              <task id="30" name="Rodada 2 por introducao/conclusao" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            </task>
-            <task id="31" name="Ler artigos primarios" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="32" name="Coletar dados" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="33" name="Reportar" note="" work="57600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-              <task id="34" name="Sintetizar dados" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-              <task id="35" name="Atualizar dissertacao" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            </task>
-          </task>
-          <task id="36" name="2 - ACM" note="" work="201600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-            <task id="37" name="Relizar Pesquisa" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="38" name="Exclus&#xF5;es" note="" work="57600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-              <task id="39" name="Rodada 1 por t&#xED;tulo/abstract" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-              <task id="40" name="Rodada 2 por introducao/conclusao" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            </task>
-            <task id="41" name="Ler artigos primarios" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="42" name="Coletar dados" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="43" name="Reportar" note="" work="57600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-              <task id="44" name="Sintetizar dados" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-              <task id="45" name="Atualizar dissertacao" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            </task>
-          </task>
-          <task id="46" name="3 - Science Direct" note="" work="201600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-            <task id="47" name="Relizar Pesquisa" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="48" name="Exclus&#xF5;es" note="" work="57600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-              <task id="49" name="Rodada 1 por t&#xED;tulo/abstract" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-              <task id="50" name="Rodada 2 por introducao/conclusao" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            </task>
-            <task id="51" name="Ler artigos primarios" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="52" name="Coletar dados" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="53" name="Reportar" note="" work="57600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-              <task id="54" name="Sintetizar dados" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-              <task id="55" name="Atualizar dissertacao" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            </task>
-          </task>
-          <task id="56" name="4 - Scopus" note="" work="201600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-            <task id="57" name="Relizar Pesquisa" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="58" name="Exclus&#xF5;es" note="" work="57600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-              <task id="59" name="Rodada 1 por t&#xED;tulo/abstract" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-              <task id="60" name="Rodada 2 por introducao/conclusao" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            </task>
-            <task id="61" name="Ler artigos primarios" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="62" name="Coletar dados" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="63" name="Reportar" note="" work="57600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-              <task id="64" name="Sintetizar dados" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-              <task id="65" name="Atualizar dissertacao" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            </task>
-          </task>
-          <task id="66" name="5 - Springer Link" note="" work="201600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-            <task id="67" name="Relizar Pesquisa" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="68" name="Exclus&#xF5;es" note="" work="57600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-              <task id="69" name="Rodada 1 por t&#xED;tulo/abstract" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-              <task id="70" name="Rodada 2 por introducao/conclusao" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            </task>
-            <task id="71" name="Ler artigos primarios" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="72" name="Coletar dados" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="73" name="Reportar" note="" work="57600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-              <task id="74" name="Sintetizar dados" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-              <task id="75" name="Atualizar dissertacao" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            </task>
-          </task>
-          <task id="76" name="6 - SciElo" note="" work="201600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-            <task id="77" name="Relizar Pesquisa" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="78" name="Exclus&#xF5;es" note="" work="57600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-              <task id="79" name="Rodada 1 por t&#xED;tulo/abstract" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-              <task id="80" name="Rodada 2 por introducao/conclusao" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            </task>
-            <task id="81" name="Ler artigos primarios" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="82" name="Coletar dados" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="83" name="Reportar" note="" work="57600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-              <task id="84" name="Sintetizar dados" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-              <task id="85" name="Atualizar dissertacao" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            </task>
-          </task>
-          <task id="86" name="7 - arXvi" note="" work="201600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-            <task id="87" name="Relizar Pesquisa" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="88" name="Exclus&#xF5;es" note="" work="57600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-              <task id="89" name="Rodada 1 por t&#xED;tulo/abstract" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-              <task id="90" name="Rodada 2 por introducao/conclusao" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            </task>
-            <task id="91" name="Ler artigos primarios" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="92" name="Coletar dados" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="93" name="Reportar" note="" work="57600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-              <task id="94" name="Sintetizar dados" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-              <task id="95" name="Atualizar dissertacao" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            </task>
-          </task>
-          <task id="96" name="8 - Citeseer Library" note="" work="201600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-            <task id="97" name="Relizar Pesquisa" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="98" name="Exclus&#xF5;es" note="" work="57600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-              <task id="99" name="Rodada 1 por t&#xED;tulo/abstract" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-              <task id="100" name="Rodada 2 por introducao/conclusao" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            </task>
-            <task id="101" name="Ler artigos primarios" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="102" name="Coletar dados" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="103" name="Reportar" note="" work="57600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-              <task id="104" name="Sintetizar dados" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-              <task id="105" name="Atualizar dissertacao" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            </task>
-          </task>
-        </task>
-      </task>
-      <task id="106" name="Escrever Dissertacao" note="" work="86400" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-        <task id="107" name="Template Latex" note="" work="57600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-          <task id="108" name="Procurar template latex" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="109" name="Adaptar template Latex" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        </task>
-        <task id="110" name="Criar estrutura do documento Latex" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      </task>
-      <task id="111" name="Escrever Artigo" note="" work="86400" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-        <task id="112" name="Levantar locais para publicacao" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        <task id="113" name="Escrever Texto" note="" work="57600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-          <task id="114" name="Escrever resumo" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="115" name="Escrever Demais secoes do artigo" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        </task>
-      </task>
-      <task id="116" name="Checklist" note="Data de 2 anos a partir do inicio do curso" work="316800" start="20220401T000000Z" end="20230417T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-        <constraint type="must-start-on" time="20240401T000000Z"/>
-        <task id="117" name="Obter 24 Creditos" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        <task id="118" name="Cursar 3 disiplinas do n&#xFA;cleo b&#xE1;sico" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        <task id="119" name="Proeficiencia Ingles" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        <task id="120" name="Submissao resumo do artigo" note="" work="28800" start="20220401T170000Z" end="20220404T170000Z" work-start="20220404T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-          <predecessors>
-            <predecessor id="1" predecessor-id="114" type="FS"/>
-          </predecessors>
-        </task>
-        <task id="121" name="Qualificacao" note="" work="144000" start="20220401T000000Z" end="20230417T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="2" name="Marcos Importantes" note="" work="0" start="20230601T000000Z" end="20251001T000000Z" work-start="20230601T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="3" name="Data Limite Qualificacao (14 meses)" note="" work="0" start="20230601T000000Z" end="20230601T000000Z" work-start="20230601T080000Z" percent-complete="0" priority="0" type="milestone" scheduling="fixed-work">
           <constraint type="must-start-on" time="20230601T000000Z"/>
-          <task id="122" name="Escrever a qualificacao" note="" work="86400" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-            <task id="123" name="Conseguir template" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="124" name="Criar estrutura do documento" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-            <task id="125" name="Escrever introdu&#xE7;&#xE3;o" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          </task>
-          <task id="126" name="Pedido Qualificacao" note="" work="28800" duration="28800" start="20230301T000000Z" end="20230301T170000Z" work-start="20230301T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
-            <constraint type="start-no-earlier-than" time="20230301T000000Z"/>
-          </task>
-          <task id="127" name="Apresentacao da Qualifica&#xE7;&#xE3;o" note="" work="28800" start="20230415T000000Z" end="20230417T170000Z" work-start="20230417T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-            <constraint type="start-no-earlier-than" time="20230415T000000Z"/>
+        </task>
+        <task id="4" name="Data Limite Checklist (24 meses)" note="" work="0" start="20240401T000000Z" end="20240401T000000Z" work-start="20240401T080000Z" percent-complete="0" priority="0" type="milestone" scheduling="fixed-work">
+          <constraint type="must-start-on" time="20240401T000000Z"/>
+        </task>
+        <task id="5" name="Data Limite Defesa (30 meses)" note="" work="0" start="20241001T000000Z" end="20241001T000000Z" work-start="20241001T080000Z" percent-complete="0" priority="0" type="milestone" scheduling="fixed-work">
+          <constraint type="must-start-on" time="20241001T000000Z"/>
+        </task>
+        <task id="6" name="Data Limite 1a Prorrogacao (36 meses)" note="" work="0" start="20250401T000000Z" end="20250401T000000Z" work-start="20250401T080000Z" percent-complete="0" priority="0" type="milestone" scheduling="fixed-work">
+          <constraint type="must-start-on" time="20250401T000000Z"/>
+        </task>
+        <task id="7" name="Data Limite 2a Prorrogacao (42 meses)" note="" work="0" start="20251001T000000Z" end="20251001T000000Z" work-start="20251001T080000Z" percent-complete="0" priority="0" type="milestone" scheduling="fixed-work">
+          <constraint type="must-start-on" time="20251001T000000Z"/>
+        </task>
+      </task>
+      <task id="8" name="Reunioes de acompanhamento" note="" work="720000" duration="17280000" start="20220401T000000Z" end="20240718T170000Z" work-start="20220401T080000Z" percent-complete="27" priority="0" type="normal" scheduling="fixed-duration"/>
+      <task id="9" name="Definicoes da pesquisa" note="" work="172800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="10" name="Brainstorm com orientadora" note="" work="115200" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="11" name="Definir nome do trabalho" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="12" name="Definir questoes de pesquisa" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="13" name="Definir estrutura do documento" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="14" name="Definir String de Busca" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        </task>
+        <task id="15" name="Pesquisa Exploratoria" note="" work="57600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="16" name="Levantamento de SLRs / Surveys relacionados" note="" work="57600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <task id="17" name="Procurar por SLRs e Surveys" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+            <task id="18" name="Ler material encontrado" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
           </task>
         </task>
-        <task id="128" name="Entregar Formulario Artigo" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        <task id="129" name="Entregar Formulario Checklist" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
       </task>
-      <task id="130" name="Defesa / Conclusao" note="" work="172800" start="20220401T000000Z" end="20240415T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="19" name="Preparacao ferramentas" note="" work="230400" start="20220401T000000Z" end="20220412T170000Z" work-start="20220401T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+        <task id="20" name="Zotero" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+          <task id="21" name="Criar Grupo Publico Nuvem Zotero" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work"/>
+        </task>
+        <task id="22" name="Editor LaTeX" note="" work="86400" start="20220401T170000Z" end="20220406T170000Z" work-start="20220404T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+          <task id="23" name="Instalar Editor Latex" note="" work="28800" start="20220401T170000Z" end="20220404T170000Z" work-start="20220404T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="21" type="FS"/>
+            </predecessors>
+          </task>
+          <task id="24" name="Instalar Pacotes extras" note="" work="28800" start="20220404T170000Z" end="20220405T170000Z" work-start="20220405T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="23" type="FS"/>
+            </predecessors>
+          </task>
+          <task id="25" name="Compilar Template temporario PPGI" note="" work="28800" start="20220405T170000Z" end="20220406T170000Z" work-start="20220406T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="24" type="FS"/>
+            </predecessors>
+          </task>
+        </task>
+        <task id="26" name="Repositorio Github" note="" work="86400" start="20220406T170000Z" end="20220411T170000Z" work-start="20220407T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+          <task id="27" name="Criacao do repositorio com licen&#xE7;a e release inicial" note="" work="28800" start="20220406T170000Z" end="20220407T170000Z" work-start="20220407T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="25" type="FS"/>
+            </predecessors>
+          </task>
+          <task id="28" name="Adicionar Artefatos iniciais dos textos" note="" work="28800" start="20220407T170000Z" end="20220408T170000Z" work-start="20220408T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="27" type="FS"/>
+            </predecessors>
+          </task>
+          <task id="29" name="Criar Readme" note="" work="28800" start="20220408T170000Z" end="20220411T170000Z" work-start="20220411T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="28" type="FS"/>
+            </predecessors>
+          </task>
+        </task>
+        <task id="30" name="Repositorio Zenodo" note="" work="28800" start="20220411T170000Z" end="20220412T170000Z" work-start="20220412T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+          <task id="31" name="Criar DOI da versao inicial" note="" work="28800" start="20220411T170000Z" end="20220412T170000Z" work-start="20220412T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="29" type="FS"/>
+            </predecessors>
+          </task>
+        </task>
+      </task>
+      <task id="32" name="Qualificacao" note="" work="288000" start="20220401T000000Z" end="20220525T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20230601T000000Z"/>
+        <task id="33" name="Escrever a qualificacao" note="" work="172800" start="20220401T000000Z" end="20220408T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="34" name="Conseguir template" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="35" name="Criar estrutura do documento" note="" work="28800" start="20220401T170000Z" end="20220404T170000Z" work-start="20220404T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="34" type="FS"/>
+            </predecessors>
+          </task>
+          <task id="36" name="Criar Cronograma" note="" work="28800" start="20220404T170000Z" end="20220405T170000Z" work-start="20220405T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="35" type="FS"/>
+            </predecessors>
+          </task>
+          <task id="37" name="Escrever introdu&#xE7;&#xE3;o" note="" work="28800" start="20220405T170000Z" end="20220406T170000Z" work-start="20220406T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="36" type="FS"/>
+            </predecessors>
+          </task>
+          <task id="38" name="Escrever Fundamentacao Teorica" note="" work="28800" start="20220406T170000Z" end="20220407T170000Z" work-start="20220407T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="37" type="FS"/>
+            </predecessors>
+          </task>
+          <task id="39" name="Revisao Orientador" note="" work="28800" start="20220407T170000Z" end="20220408T170000Z" work-start="20220408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="38" type="FS"/>
+            </predecessors>
+          </task>
+        </task>
+        <task id="40" name="Pedido Qualificacao" note="" work="28800" duration="921600" start="20220408T170000Z" end="20220524T170000Z" work-start="20220411T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+          <predecessors>
+            <predecessor id="1" predecessor-id="39" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="41" name="Preparar apresentacao" note="" work="28800" start="20220408T170000Z" end="20220411T170000Z" work-start="20220411T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="39" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="42" name="Apresentar para orientadora" note="" work="28800" start="20220411T170000Z" end="20220412T170000Z" work-start="20220412T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="41" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="43" name="Apresentacao da Qualifica&#xE7;&#xE3;o" note="" work="28800" start="20220524T170000Z" end="20220525T170000Z" work-start="20220525T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="40" type="FS"/>
+          </predecessors>
+        </task>
+      </task>
+      <task id="44" name="Fazer SLR" note="" work="2217600" start="20220401T000000Z" end="20220713T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="45" name="Planejamento do SLR" note="" work="86400" start="20220401T170000Z" end="20220406T170000Z" work-start="20220404T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="12" type="FS"/>
+          </predecessors>
+          <task id="46" name="Escrever Planejamento do SLR" note="" work="57600" start="20220401T170000Z" end="20220405T170000Z" work-start="20220404T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <task id="47" name="Definir campos que serao coletados" note="" work="28800" start="20220401T170000Z" end="20220404T170000Z" work-start="20220404T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+            <task id="48" name="Definir Formulario de Qualidade" note="" work="28800" start="20220404T170000Z" end="20220405T170000Z" work-start="20220405T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="47" type="FS"/>
+              </predecessors>
+            </task>
+          </task>
+          <task id="49" name="Revisao do plano do SLR" note="" work="28800" start="20220405T170000Z" end="20220406T170000Z" work-start="20220406T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="48" type="FS"/>
+            </predecessors>
+          </task>
+        </task>
+        <task id="50" name="Treinamento SLR" note="" work="172800" start="20220401T000000Z" end="20220408T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="51" name="Rodar Pesquisa na IEEE" note="" work="57600" duration="57600" start="20220401T000000Z" end="20220404T170000Z" work-start="20220401T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-duration"/>
+          <task id="52" name="Exclusoes" note="" work="57600" start="20220404T170000Z" end="20220406T170000Z" work-start="20220405T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <task id="53" name="Rodada 1 por t&#xED;tulo/abstract" note="" work="28800" start="20220404T170000Z" end="20220405T170000Z" work-start="20220405T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="51" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="54" name="Rodada 2 por introducao/conclusao" note="" work="28800" start="20220405T170000Z" end="20220406T170000Z" work-start="20220406T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="53" type="FS"/>
+              </predecessors>
+            </task>
+          </task>
+          <task id="55" name="Ler Artigos Primarios" note="" work="28800" start="20220406T170000Z" end="20220407T170000Z" work-start="20220407T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="54" type="FS"/>
+            </predecessors>
+          </task>
+          <task id="56" name="Coletar Dados" note="" work="28800" start="20220407T170000Z" end="20220408T170000Z" work-start="20220408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="55" type="FS"/>
+            </predecessors>
+          </task>
+        </task>
+        <task id="57" name="Redefinir parametros da pesquisa" note="" work="115200" start="20220408T170000Z" end="20220414T170000Z" work-start="20220411T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="58" name="Redefinir palavras de busca" note="" work="28800" start="20220408T170000Z" end="20220411T170000Z" work-start="20220411T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="56" type="FS"/>
+            </predecessors>
+          </task>
+          <task id="59" name="Redefinir campos da coleta" note="" work="28800" start="20220411T170000Z" end="20220412T170000Z" work-start="20220412T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="58" type="FS"/>
+            </predecessors>
+          </task>
+          <task id="60" name="Redefinir formulario de extracao de dados" note="" work="28800" start="20220412T170000Z" end="20220413T170000Z" work-start="20220413T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="59" type="FS"/>
+            </predecessors>
+          </task>
+          <task id="61" name="Redefinir Redefinir t&#xED;tulo do trabalho" note="" work="28800" start="20220413T170000Z" end="20220414T170000Z" work-start="20220414T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="60" type="FS"/>
+            </predecessors>
+          </task>
+        </task>
+        <task id="62" name="Iteracoes Pesquisa" note="" work="1843200" start="20220414T170000Z" end="20220713T170000Z" work-start="20220415T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="63" name="1 - IEEE" note="" work="230400" start="20220414T170000Z" end="20220426T170000Z" work-start="20220415T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <task id="64" name="Realizar Pesquisa" note="" work="28800" start="20220414T170000Z" end="20220415T170000Z" work-start="20220415T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="61" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="65" name="Exclus&#xF5;es" note="" work="86400" start="20220415T170000Z" end="20220420T170000Z" work-start="20220418T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <task id="66" name="Rodada 1 por t&#xED;tulo/abstract" note="" work="28800" start="20220415T170000Z" end="20220418T170000Z" work-start="20220418T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="64" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="67" name="Rodada 2 por introducao/conclusao" note="" work="28800" start="20220418T170000Z" end="20220419T170000Z" work-start="20220419T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="66" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="68" name="Revisao exclusoes por amostragem" note="" work="28800" start="20220419T170000Z" end="20220420T170000Z" work-start="20220420T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="67" type="FS"/>
+                </predecessors>
+              </task>
+            </task>
+            <task id="69" name="Ler artigos primarios" note="" work="28800" start="20220420T170000Z" end="20220421T170000Z" work-start="20220421T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="68" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="70" name="Coletar dados" note="" work="28800" start="20220421T170000Z" end="20220422T170000Z" work-start="20220422T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="69" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="71" name="Reportar" note="" work="57600" start="20220422T170000Z" end="20220426T170000Z" work-start="20220425T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <task id="72" name="Sintetizar dados" note="" work="28800" start="20220422T170000Z" end="20220425T170000Z" work-start="20220425T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="70" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="73" name="Atualizar dissertacao" note="" work="28800" start="20220425T170000Z" end="20220426T170000Z" work-start="20220426T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="72" type="FS"/>
+                </predecessors>
+              </task>
+            </task>
+          </task>
+          <task id="74" name="2 - ACM" note="" work="230400" start="20220426T170000Z" end="20220506T170000Z" work-start="20220427T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <task id="75" name="Relizar Pesquisa" note="" work="28800" start="20220426T170000Z" end="20220427T170000Z" work-start="20220427T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="73" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="76" name="Exclus&#xF5;es" note="" work="86400" start="20220427T170000Z" end="20220502T170000Z" work-start="20220428T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <task id="77" name="Rodada 1 por t&#xED;tulo/abstract" note="" work="28800" start="20220427T170000Z" end="20220428T170000Z" work-start="20220428T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="75" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="78" name="Rodada 2 por introducao/conclusao" note="" work="28800" start="20220428T170000Z" end="20220429T170000Z" work-start="20220429T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="77" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="79" name="Revisao exclusoes por amostragem" note="" work="28800" start="20220429T170000Z" end="20220502T170000Z" work-start="20220502T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="78" type="FS"/>
+                </predecessors>
+              </task>
+            </task>
+            <task id="80" name="Ler artigos primarios" note="" work="28800" start="20220502T170000Z" end="20220503T170000Z" work-start="20220503T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="79" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="81" name="Coletar dados" note="" work="28800" start="20220503T170000Z" end="20220504T170000Z" work-start="20220504T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="80" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="82" name="Reportar" note="" work="57600" start="20220504T170000Z" end="20220506T170000Z" work-start="20220505T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <task id="83" name="Sintetizar dados" note="" work="28800" start="20220504T170000Z" end="20220505T170000Z" work-start="20220505T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="81" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="84" name="Atualizar dissertacao" note="" work="28800" start="20220505T170000Z" end="20220506T170000Z" work-start="20220506T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="83" type="FS"/>
+                </predecessors>
+              </task>
+            </task>
+          </task>
+          <task id="85" name="3 - Science Direct" note="" work="230400" start="20220506T170000Z" end="20220518T170000Z" work-start="20220509T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <task id="86" name="Relizar Pesquisa" note="" work="28800" start="20220506T170000Z" end="20220509T170000Z" work-start="20220509T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="84" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="87" name="Exclus&#xF5;es" note="" work="86400" start="20220509T170000Z" end="20220512T170000Z" work-start="20220510T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <task id="88" name="Rodada 1 por t&#xED;tulo/abstract" note="" work="28800" start="20220509T170000Z" end="20220510T170000Z" work-start="20220510T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="86" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="89" name="Rodada 2 por introducao/conclusao" note="" work="28800" start="20220510T170000Z" end="20220511T170000Z" work-start="20220511T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="88" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="90" name="Revisao exclusoes por amostragem" note="" work="28800" start="20220511T170000Z" end="20220512T170000Z" work-start="20220512T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="89" type="FS"/>
+                </predecessors>
+              </task>
+            </task>
+            <task id="91" name="Ler artigos primarios" note="" work="28800" start="20220512T170000Z" end="20220513T170000Z" work-start="20220513T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="90" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="92" name="Coletar dados" note="" work="28800" start="20220513T170000Z" end="20220516T170000Z" work-start="20220516T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="91" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="93" name="Reportar" note="" work="57600" start="20220516T170000Z" end="20220518T170000Z" work-start="20220517T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <task id="94" name="Sintetizar dados" note="" work="28800" start="20220516T170000Z" end="20220517T170000Z" work-start="20220517T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="92" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="95" name="Atualizar dissertacao" note="" work="28800" start="20220517T170000Z" end="20220518T170000Z" work-start="20220518T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="94" type="FS"/>
+                </predecessors>
+              </task>
+            </task>
+          </task>
+          <task id="96" name="4 - Scopus" note="" work="230400" start="20220518T170000Z" end="20220530T170000Z" work-start="20220519T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <task id="97" name="Relizar Pesquisa" note="" work="28800" start="20220518T170000Z" end="20220519T170000Z" work-start="20220519T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="95" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="98" name="Exclus&#xF5;es" note="" work="86400" start="20220519T170000Z" end="20220524T170000Z" work-start="20220520T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <task id="99" name="Rodada 1 por t&#xED;tulo/abstract" note="" work="28800" start="20220519T170000Z" end="20220520T170000Z" work-start="20220520T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="97" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="100" name="Rodada 2 por introducao/conclusao" note="" work="28800" start="20220520T170000Z" end="20220523T170000Z" work-start="20220523T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="99" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="101" name="Revisao exclusoes por amostragem" note="" work="28800" start="20220523T170000Z" end="20220524T170000Z" work-start="20220524T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="100" type="FS"/>
+                </predecessors>
+              </task>
+            </task>
+            <task id="102" name="Ler artigos primarios" note="" work="28800" start="20220524T170000Z" end="20220525T170000Z" work-start="20220525T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="101" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="103" name="Coletar dados" note="" work="28800" start="20220525T170000Z" end="20220526T170000Z" work-start="20220526T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="102" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="104" name="Reportar" note="" work="57600" start="20220526T170000Z" end="20220530T170000Z" work-start="20220527T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <task id="105" name="Sintetizar dados" note="" work="28800" start="20220526T170000Z" end="20220527T170000Z" work-start="20220527T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="103" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="106" name="Atualizar dissertacao" note="" work="28800" start="20220527T170000Z" end="20220530T170000Z" work-start="20220530T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="105" type="FS"/>
+                </predecessors>
+              </task>
+            </task>
+          </task>
+          <task id="107" name="5 - Springer Link" note="" work="230400" start="20220530T170000Z" end="20220609T170000Z" work-start="20220531T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <task id="108" name="Relizar Pesquisa" note="" work="28800" start="20220530T170000Z" end="20220531T170000Z" work-start="20220531T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="106" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="109" name="Exclus&#xF5;es" note="" work="86400" start="20220531T170000Z" end="20220603T170000Z" work-start="20220601T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <task id="110" name="Rodada 1 por t&#xED;tulo/abstract" note="" work="28800" start="20220531T170000Z" end="20220601T170000Z" work-start="20220601T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="108" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="111" name="Rodada 2 por introducao/conclusao" note="" work="28800" start="20220601T170000Z" end="20220602T170000Z" work-start="20220602T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="110" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="112" name="Revisao exclusoes por amostragem" note="" work="28800" start="20220602T170000Z" end="20220603T170000Z" work-start="20220603T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="111" type="FS"/>
+                </predecessors>
+              </task>
+            </task>
+            <task id="113" name="Ler artigos primarios" note="" work="28800" start="20220603T170000Z" end="20220606T170000Z" work-start="20220606T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="112" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="114" name="Coletar dados" note="" work="28800" start="20220606T170000Z" end="20220607T170000Z" work-start="20220607T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="113" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="115" name="Reportar" note="" work="57600" start="20220607T170000Z" end="20220609T170000Z" work-start="20220608T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <task id="116" name="Sintetizar dados" note="" work="28800" start="20220607T170000Z" end="20220608T170000Z" work-start="20220608T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="114" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="117" name="Atualizar dissertacao" note="" work="28800" start="20220608T170000Z" end="20220609T170000Z" work-start="20220609T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="116" type="FS"/>
+                </predecessors>
+              </task>
+            </task>
+          </task>
+          <task id="118" name="6 - SciElo" note="" work="230400" start="20220609T170000Z" end="20220621T170000Z" work-start="20220610T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <task id="119" name="Relizar Pesquisa" note="" work="28800" start="20220609T170000Z" end="20220610T170000Z" work-start="20220610T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="117" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="120" name="Exclus&#xF5;es" note="" work="86400" start="20220610T170000Z" end="20220615T170000Z" work-start="20220613T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <task id="121" name="Rodada 1 por t&#xED;tulo/abstract" note="" work="28800" start="20220610T170000Z" end="20220613T170000Z" work-start="20220613T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="119" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="122" name="Rodada 2 por introducao/conclusao" note="" work="28800" start="20220613T170000Z" end="20220614T170000Z" work-start="20220614T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="121" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="123" name="Revisao exclusoes por amostragem" note="" work="28800" start="20220614T170000Z" end="20220615T170000Z" work-start="20220615T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="122" type="FS"/>
+                </predecessors>
+              </task>
+            </task>
+            <task id="124" name="Ler artigos primarios" note="" work="28800" start="20220615T170000Z" end="20220616T170000Z" work-start="20220616T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="123" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="125" name="Coletar dados" note="" work="28800" start="20220616T170000Z" end="20220617T170000Z" work-start="20220617T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="124" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="126" name="Reportar" note="" work="57600" start="20220617T170000Z" end="20220621T170000Z" work-start="20220620T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <task id="127" name="Sintetizar dados" note="" work="28800" start="20220617T170000Z" end="20220620T170000Z" work-start="20220620T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="125" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="128" name="Atualizar dissertacao" note="" work="28800" start="20220620T170000Z" end="20220621T170000Z" work-start="20220621T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="127" type="FS"/>
+                </predecessors>
+              </task>
+            </task>
+          </task>
+          <task id="129" name="7 - arXvi" note="" work="230400" start="20220621T170000Z" end="20220701T170000Z" work-start="20220622T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <task id="130" name="Relizar Pesquisa" note="" work="28800" start="20220621T170000Z" end="20220622T170000Z" work-start="20220622T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="128" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="131" name="Exclus&#xF5;es" note="" work="86400" start="20220622T170000Z" end="20220627T170000Z" work-start="20220623T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <task id="132" name="Rodada 1 por t&#xED;tulo/abstract" note="" work="28800" start="20220622T170000Z" end="20220623T170000Z" work-start="20220623T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="130" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="133" name="Rodada 2 por introducao/conclusao" note="" work="28800" start="20220623T170000Z" end="20220624T170000Z" work-start="20220624T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="132" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="134" name="Revisao exclusoes por amostragem" note="" work="28800" start="20220624T170000Z" end="20220627T170000Z" work-start="20220627T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="133" type="FS"/>
+                </predecessors>
+              </task>
+            </task>
+            <task id="135" name="Ler artigos primarios" note="" work="28800" start="20220627T170000Z" end="20220628T170000Z" work-start="20220628T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="134" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="136" name="Coletar dados" note="" work="28800" start="20220628T170000Z" end="20220629T170000Z" work-start="20220629T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="135" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="137" name="Reportar" note="" work="57600" start="20220629T170000Z" end="20220701T170000Z" work-start="20220630T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <task id="138" name="Sintetizar dados" note="" work="28800" start="20220629T170000Z" end="20220630T170000Z" work-start="20220630T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="136" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="139" name="Atualizar dissertacao" note="" work="28800" start="20220630T170000Z" end="20220701T170000Z" work-start="20220701T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="138" type="FS"/>
+                </predecessors>
+              </task>
+            </task>
+          </task>
+          <task id="140" name="8 - Citeseer Library" note="" work="230400" start="20220701T170000Z" end="20220713T170000Z" work-start="20220704T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <task id="141" name="Relizar Pesquisa" note="" work="28800" start="20220701T170000Z" end="20220704T170000Z" work-start="20220704T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="139" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="142" name="Exclus&#xF5;es" note="" work="86400" start="20220704T170000Z" end="20220707T170000Z" work-start="20220705T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <task id="143" name="Rodada 1 por t&#xED;tulo/abstract" note="" work="28800" start="20220704T170000Z" end="20220705T170000Z" work-start="20220705T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="141" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="144" name="Rodada 2 por introducao/conclusao" note="" work="28800" start="20220705T170000Z" end="20220706T170000Z" work-start="20220706T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="143" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="145" name="Revisao exclusoes por amostragem" note="" work="28800" start="20220706T170000Z" end="20220707T170000Z" work-start="20220707T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="144" type="FS"/>
+                </predecessors>
+              </task>
+            </task>
+            <task id="146" name="Ler artigos primarios" note="" work="28800" start="20220707T170000Z" end="20220708T170000Z" work-start="20220708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="145" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="147" name="Coletar dados" note="" work="28800" start="20220708T170000Z" end="20220711T170000Z" work-start="20220711T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <predecessors>
+                <predecessor id="1" predecessor-id="146" type="FS"/>
+              </predecessors>
+            </task>
+            <task id="148" name="Reportar" note="" work="57600" start="20220711T170000Z" end="20220713T170000Z" work-start="20220712T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+              <task id="149" name="Sintetizar dados" note="" work="28800" start="20220711T170000Z" end="20220712T170000Z" work-start="20220712T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="147" type="FS"/>
+                </predecessors>
+              </task>
+              <task id="150" name="Atualizar dissertacao" note="" work="28800" start="20220712T170000Z" end="20220713T170000Z" work-start="20220713T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+                <predecessors>
+                  <predecessor id="1" predecessor-id="149" type="FS"/>
+                </predecessors>
+              </task>
+            </task>
+          </task>
+        </task>
+      </task>
+      <task id="151" name="Dissertacao" note="" work="316800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="152" name="Template Latex" note="" work="57600" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="153" name="Procurar template latex" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="154" name="Adaptar template Latex" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        </task>
+        <task id="155" name="Escrever Texto" note="" work="259200" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="156" name="Criar estrutura do documento Latex" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="157" name="Escrever  Introducao" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="158" name="Escrever Fundamentacao teorica" note="" work="86400" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <task id="159" name="Escrever sobre SLR" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+            <task id="160" name="Escrever sobre Problemas de concorrencia" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+            <task id="161" name="Escrever sobre Message Passing" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          </task>
+          <task id="162" name="Escrever sobre o que foi encontrado no SLR" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="163" name="Escrever Sobre a Discussao" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="164" name="Escrever a conclusao" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="165" name="Revisao do orientador" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        </task>
+      </task>
+      <task id="166" name="Artigo" note="" work="115200" start="20220401T000000Z" end="20221111T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="167" name="Levantar locais para publicacao" note="" work="28800" start="20221111T000000Z" end="20221111T170000Z" work-start="20221111T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+          <constraint type="start-no-earlier-than" time="20221111T000000Z"/>
+        </task>
+        <task id="168" name="Escrever Texto" note="" work="86400" start="20220401T000000Z" end="20220405T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="169" name="Escrever resumo" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="170" name="Escrever Demais secoes do artigo" note="" work="28800" start="20220401T170000Z" end="20220404T170000Z" work-start="20220404T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="169" type="FS"/>
+            </predecessors>
+          </task>
+          <task id="171" name="Revisao do orientador" note="" work="28800" start="20220404T170000Z" end="20220405T170000Z" work-start="20220405T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="170" type="FS"/>
+            </predecessors>
+          </task>
+        </task>
+      </task>
+      <task id="172" name="Checklist" note="Data de 2 anos a partir do inicio do curso" work="11808000" start="20220401T000000Z" end="20230106T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20240401T000000Z"/>
+        <task id="173" name="Obter 24 Creditos" note="" work="5788800" start="20220401T000000Z" end="20230106T170000Z" work-start="20220401T080000Z" percent-complete="80" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="174" name="Cursar 3 disiplinas do n&#xFA;cleo b&#xE1;sico" note="" work="5788800" start="20220401T000000Z" end="20230106T170000Z" work-start="20220401T080000Z" percent-complete="80" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="175" name="Proeficiencia Ingles" note="" work="144000" start="20221205T000000Z" end="20221209T170000Z" work-start="20221205T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <constraint type="start-no-earlier-than" time="20221205T000000Z"/>
+        </task>
+        <task id="176" name="Submissao resumo do artigo" note="" work="28800" start="20220401T170000Z" end="20220404T170000Z" work-start="20220404T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="169" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="177" name="Entregar Formulario Artigo" note="" work="28800" start="20220525T170000Z" end="20220526T170000Z" work-start="20220526T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="43" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="178" name="Entregar Formulario Checklist" note="" work="28800" start="20220526T170000Z" end="20220527T170000Z" work-start="20220527T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="177" type="FS"/>
+          </predecessors>
+        </task>
+      </task>
+      <task id="179" name="Defesa" note="" work="230400" start="20220527T170000Z" end="20220721T170000Z" work-start="20220530T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <constraint type="must-start-on" time="20241001T000000Z"/>
-        <task id="131" name="Pedido de banca" note="" work="28800" start="20240301T000000Z" end="20240301T170000Z" work-start="20240301T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-          <constraint type="start-no-earlier-than" time="20240301T000000Z"/>
+        <task id="180" name="Pedido de banca" note="" work="28800" duration="921600" start="20220527T170000Z" end="20220712T170000Z" work-start="20220530T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+          <predecessors>
+            <predecessor id="1" predecessor-id="165" type="FS"/>
+            <predecessor id="1" predecessor-id="178" type="FS"/>
+          </predecessors>
         </task>
-        <task id="132" name="Imprimir textos p banca" note="" work="28800" start="20240401T000000Z" end="20240401T170000Z" work-start="20240401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-          <constraint type="start-no-earlier-than" time="20240401T000000Z"/>
+        <task id="181" name="Imprimir textos p banca" note="" work="28800" start="20220712T170000Z" end="20220713T170000Z" work-start="20220713T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="180" type="FS"/>
+          </predecessors>
         </task>
-        <task id="133" name="Envio do texto p banca" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        <task id="134" name="Criar folha de Assinatura da Banca" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        <task id="135" name="Apresentacao para banca" note="" work="28800" start="20240415T000000Z" end="20240415T170000Z" work-start="20240415T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-          <constraint type="start-no-earlier-than" time="20240415T000000Z"/>
+        <task id="182" name="Envio do texto p banca" note="" work="28800" start="20220713T170000Z" end="20220714T170000Z" work-start="20220714T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="181" type="FS"/>
+          </predecessors>
         </task>
-        <task id="136" name="Pegar assinaturas da Folha de assinaturas da Banca" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="183" name="Criar folha de Assinatura da Banca" note="" work="28800" start="20220714T170000Z" end="20220715T170000Z" work-start="20220715T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="182" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="184" name="Criar apresentacao que sera usado na banca" note="" work="28800" start="20220715T170000Z" end="20220718T170000Z" work-start="20220718T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="183" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="185" name="Fazer apresentacoes treino com orientador" note="" work="28800" start="20220718T170000Z" end="20220719T170000Z" work-start="20220719T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="184" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="186" name="Apresentacao para banca" note="" work="28800" start="20220719T170000Z" end="20220720T170000Z" work-start="20220720T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="185" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="187" name="Pegar assinaturas da Folha de assinaturas da Banca" note="" work="28800" start="20220720T170000Z" end="20220721T170000Z" work-start="20220721T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="186" type="FS"/>
+          </predecessors>
+        </task>
       </task>
-      <task id="137" name="P&#xF3;s Defesa" note="" work="230400" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="188" name="P&#xF3;s Defesa" note="" work="230400" start="20220721T170000Z" end="20220802T170000Z" work-start="20220722T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <constraint type="start-no-earlier-than" time="20240416T000000Z"/>
-        <task id="138" name="Ata da Banca" note="" work="86400" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-          <task id="139" name="Fazer ata de Defesa do Mestrado" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="140" name="Obter Emails  com aprovacao da Banca" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-          <task id="141" name="Digitalizar e enviar p secretaria" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="189" name="Ata da Banca" note="" work="86400" start="20220721T170000Z" end="20220726T170000Z" work-start="20220722T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="190" name="Fazer ata de Defesa do Mestrado" note="" work="28800" start="20220721T170000Z" end="20220722T170000Z" work-start="20220722T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="187" type="FS"/>
+            </predecessors>
+          </task>
+          <task id="191" name="Obter Emails  com aprovacao da Banca" note="" work="28800" start="20220722T170000Z" end="20220725T170000Z" work-start="20220725T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="190" type="FS"/>
+            </predecessors>
+          </task>
+          <task id="192" name="Digitalizar e enviar p secretaria" note="" work="28800" start="20220725T170000Z" end="20220726T170000Z" work-start="20220726T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <predecessors>
+              <predecessor id="1" predecessor-id="191" type="FS"/>
+            </predecessors>
+          </task>
         </task>
-        <task id="142" name="Fazer cartas Banca Membros" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        <task id="143" name="Fazer carta banca presidente" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        <task id="144" name="Cartas de Agradecimento ????????" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        <task id="145" name="Fazer documentos CPFs membros externos" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        <task id="146" name="Entregar folha de Assinatura p coordenador assinar" note="" work="28800" start="20220401T000000Z" end="20220401T170000Z" work-start="20220401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="193" name="Fazer cartas Banca Membros" note="" work="28800" start="20220726T170000Z" end="20220727T170000Z" work-start="20220727T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="192" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="194" name="Fazer carta banca presidente" note="" work="28800" start="20220727T170000Z" end="20220728T170000Z" work-start="20220728T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="193" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="195" name="Cartas de Agradecimento ????????" note="" work="28800" start="20220728T170000Z" end="20220729T170000Z" work-start="20220729T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="194" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="196" name="Fazer documentos CPFs membros externos" note="" work="28800" start="20220729T170000Z" end="20220801T170000Z" work-start="20220801T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="195" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="197" name="Entregar folha de Assinatura p coordenador assinar" note="" work="28800" start="20220801T170000Z" end="20220802T170000Z" work-start="20220802T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="196" type="FS"/>
+          </predecessors>
+        </task>
       </task>
     </task>
   </tasks>
   <resource-groups/>
   <resources>
     <resource id="1" name="Saulo" short-name="" type="1" units="0" email="sauloandrade@gmail.com" note="" std-rate="0"/>
-    <resource id="2" name="Silvana" short-name="" type="1" units="0" email="silvana@dcc.ufrj.br" note="" std-rate="0"/>
+    <resource id="2" name="Revisor" short-name="" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="3" name="Silvana" short-name="" type="1" units="0" email="silvana@dcc.ufrj.br" note="" std-rate="0"/>
   </resources>
-  <allocations/>
+  <allocations>
+    <allocation task-id="8" resource-id="1" units="2"/>
+    <allocation task-id="8" resource-id="3" units="2"/>
+  </allocations>
 </project>
